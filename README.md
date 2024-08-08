@@ -1,6 +1,26 @@
-# Keras: How to Build Multi-Layer Perceptron Neural Network Models with Keras
+## General Notes
 
-> Repository with neural model using the Keras library.
+This repository contains a Keras implementation of a Multi-Layer Perceptron (MLP) neural network model. You can find code for:
 
-General notes.
+* Data preparation and preprocessing
+* Model creation and compilation
+* Training and evaluation
+* Saving and loading the model
 
+## Visualization of Results
+
+Here are some visualizations of the model's performance:
+
+* **Loss and Accuracy:** [loss_accuracy.png](loss_accuracy.png)
+* **Data Distribution:** [distribution.png](distribution.png)
+* **Model Architecture:** [prtscn.png](prtscn.png)
+
+## How to Run
+
+1. Install the required libraries: `pip install tensorflow keras matplotlib scikit-learn`
+2. Run the `train.py` script to train the model.
+3. Run the `predict.py` script to make predictions with the saved model.
+
+## Contributing
+
+Contributions are welcome! Please submit pull requests or issues if you have any improvements or suggestions.

@@ -46,7 +46,7 @@ def execute():
     ### Criação do modelo
     # Fazemos um modelo MLP definido por 1 camada de entrada, 1 camada oculta e 1 camada de saída.
     print("Criação do modelo")
-    modelo = keras.Sequential([keras.layers.InputLayer(input_shape=[4,],name='entrada'),
+    modelo = keras.Sequential([keras.layers.InputLayer(shape=[4,],name='entrada'),
                            keras.layers.Dense(512,activation='relu',name='oculta',
                            kernel_initializer=keras.initializers.RandomNormal(seed=142)),
                            keras.layers.Dense(3,activation='softmax',name='saida')])
