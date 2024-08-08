@@ -11,9 +11,14 @@ This repository contains a Keras implementation of a Multi-Layer Perceptron (MLP
 
 Here are some visualizations of the model's performance:
 
-* **Loss and Accuracy:** [loss_accuracy.png](loss_accuracy.png)
-* **Data Distribution:** [distribution.png](distribution.png)
-* **Model Architecture:** [prtscn.png](prtscn.png)
+* **Loss and Accuracy:**
+  ![Loss and Accuracy](loss_accuracy.png)
+
+* **Data Distribution:**
+  ![Data Distribution](distribution.png)
+
+* **Model Architecture:**
+  ![Model Architecture](prtscn.png)
 
 ## How to Run
 
